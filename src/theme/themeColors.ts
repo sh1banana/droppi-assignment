@@ -1,8 +1,10 @@
 /** LIBRARY */
 import { Colors } from "~/const/enum/colors";
+import { ThemeType } from "~/const/enum/theme";
+import { ThemeColorsType } from "~/const/types/colors";
 
-const themeColors = {
-  light: {
+const themeColors: ThemeColorsType = {
+  [ThemeType.Light]: {
     background: Colors.snow,
     surface: Colors.white,
     primary: Colors.primary,
@@ -17,14 +19,13 @@ const themeColors = {
     error: Colors.redOrange,
     onError: Colors.white,
     success: Colors.switchActive,
-    confirm: Colors.link,
     onSuccess: Colors.white,
     warning: Colors.marigold,
     onWarning: Colors.white,
     border: Colors.lightGray,
     underline: Colors.link
   },
-  dark: {
+  [ThemeType.Dark]: {
     background: Colors.bgDark,
     surface: Colors.surfaceDark,
     primary: Colors.primary,

@@ -7,7 +7,7 @@ import RootNavigator from '~/navigation/rootNavigator';
 /** COMMON */
 import store from '~/redux/store';
 
-const App = (): React.JSX.Element => {
+const App = () => {
 
   /** RENDER */
   return (

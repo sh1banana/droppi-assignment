@@ -5,12 +5,12 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 /** COMPONENTS */
 import {  RootMain } from './appNavigator';
 /** COMMON */
-import { RoutesName } from '~/const/enum/RoutesName';
+import { RoutesName } from '~/const/enum/routesName';
 
-const RootNavigator = (): React.JSX.Element => {
+const RootNavigator = () => {
 
   const [loading, setLoading] = useState<boolean>(true);
-  const [initialRoute, setInitialRoute] = useState<RoutesName>(RoutesName.SignIn);
+  const [initialRoute, setInitialRoute] = useState<RoutesName>(RoutesName.ListAssignment);
 
   /** FUNCTIONS */
 

@@ -1,0 +1,21 @@
+import { Minimal } from "./minimal"
+
+export type MovieItemType = {
+  adult?: boolean,
+  backdrop_path?: string,
+  genre_ids?: number[],
+  id: number,
+  original_language?: string,
+  original_title?: string,
+  overview?: string,
+  popularity?: number,
+  poster_path?: string,
+  release_date?: string,
+  title: string,
+  video?: boolean,
+  vote_average?: number,
+  vote_count?: number,
+  genres?: Minimal[],
+  spoken_languages?: Minimal[],
+  homepage?: string
+}

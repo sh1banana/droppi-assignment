@@ -1,10 +1,12 @@
 /** LIBRARY */
-import React from 'react';
+import React, { useEffect } from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { useDispatch } from 'react-redux';
 /** COMMON */
 import Routes from './routes';
-import { RoutesName } from '~/const/enum/RoutesName';
+import { RoutesName } from '~/const/enum/routesName';
 import { Entries } from '~/const/types/arrayHelpers';
+import { favoriteMovieGetListAction } from '~/redux/types';
 
 interface NavigatorProps {
   initialRoute: RoutesName
@@ -14,6 +16,24 @@ const Stack = createNativeStackNavigator()
 const AuthStack = createNativeStackNavigator();
 
 export const RootMain = (props: NavigatorProps) => {
+  const dispatch = useDispatch();
+
+  /** FUNCTIONS */
+  const getFavoriteMovies = () => {
+    dispatch({
+      type: favoriteMovieGetListAction,
+      payload: {
+        params: {},
+        callback: () => {}
+      }
+    })
+  }
+
+  /** LIFE CYCLE */
+  useEffect(() => {
+    getFavoriteMovies();
+  }, [])
+  /** RENDER */
   return (
     <Stack.Navigator initialRouteName={props.initialRoute}
       screenOptions={{

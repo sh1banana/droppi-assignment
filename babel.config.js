@@ -4,8 +4,13 @@ module.exports = {
     [
       require.resolve('babel-plugin-module-resolver'),
       {
-        root: ["./src"],
+        cwd: 'babelrc',
+        extensions: ['.ts', '.tsx', '.js', '.ios.js', '.android.js'],
+        alias: {
+          '~': './src'
+        }
       }
     ],
+    'jest-hoist'
   ]
 };

@@ -1,0 +1,57 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Poppins-Bold.ttf",
+      "sha1": "f68e7e93da3f4a710d28b0ee5f744b5112351401"
+    },
+    {
+      "path": "assets/fonts/Poppins-Light.ttf",
+      "sha1": "987ef3e07d6361fbb658624e297750133f2343bd"
+    },
+    {
+      "path": "assets/fonts/Poppins-Medium.ttf",
+      "sha1": "72b668cb1639c6b0588c6fffa1ae9a967409e8ae"
+    },
+    {
+      "path": "assets/fonts/Poppins-Regular.ttf",
+      "sha1": "a4ef48c17479236fea2197b9a68bf7c6163e0388"
+    },
+    {
+      "path": "assets/fonts/Poppins-SemiBold.ttf",
+      "sha1": "e1a01a240fb449797ac08a37490d59b61a059e6d"
+    },
+    {
+      "path": "assets/fonts/Poppins-Thin.ttf",
+      "sha1": "561e8929100d5e1b8e6bba314ef1e59c22906eba"
+    },
+    {
+      "path": "assets/fonts/Qanelas-Heavy.ttf",
+      "sha1": "753e3577c29d904887671fddbdb58d59c3ec6499"
+    },
+    {
+      "path": "assets/fonts/Qanelas-Light.ttf",
+      "sha1": "c38296ad6830e41ac6d405137d65a4ccea415f99"
+    },
+    {
+      "path": "assets/fonts/Qanelas-Medium.ttf",
+      "sha1": "8b7bde3b1e1392619f8b898cd5b7998c3d62c0f9"
+    },
+    {
+      "path": "assets/fonts/Qanelas-Regular.ttf",
+      "sha1": "85c3fc4ed24d11acdbc1e84890ffb840e2e4a538"
+    },
+    {
+      "path": "assets/fonts/Qanelas-SemiBold.ttf",
+      "sha1": "feb6fa6c84af3ac2b06a145e2c823d812c53727e"
+    },
+    {
+      "path": "assets/fonts/Qanelas-Thin.ttf",
+      "sha1": "f2a2183c2bf127a683f87178d0f5ed6b6e827a14"
+    },
+    {
+      "path": "assets/fonts/Qanelas-UltraLight.ttf",
+      "sha1": "a0afbc97adfcb05599e86f8a916f1fc89df83568"
+    }
+  ]
+}
